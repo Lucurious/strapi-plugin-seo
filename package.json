@@ -13,17 +13,19 @@
     "url": "https://github.com/strapi/strapi-plugin-seo.git"
   },
   "dependencies": {
-    "date-fns": "^2.29.3",
+    "@strapi/design-system": "^1.19.0",
+    "@strapi/icons": "^1.19.0",
+    "date-fns": "^3.6.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "lodash": "^4.17.21",
-    "showdown": "^1.9.1",
+    "showdown": "^2.1.0",
     "styled-components": "^6.0.7"
   },
   "resolutions": {
     "yargs": "^17.2.1"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.0.0"
+    "@strapi/strapi": "^5.0.0-rc.10"
   },
   "author": {
     "name": "Strapi Solutions SAS",
@@ -37,5 +39,6 @@
       "url": "https://strapi.io"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631"
 }

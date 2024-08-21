@@ -1,24 +1,18 @@
 import React, { useState } from 'react';
 
 import {
-  ModalLayout,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
-} from '@strapi/design-system/ModalLayout';
+    ModalBody,
+    ModalFooter,
+    ModalHeader,
+    ModalLayout,
+} from '@strapi/design-system';
 
-import { Box } from '@strapi/design-system/Box';
-import { Stack } from '@strapi/design-system/Stack';
-import { Switch } from '@strapi/design-system/Switch';
-import { Button } from '@strapi/design-system/Button';
-import { Divider } from '@strapi/design-system/Divider';
-import { Typography } from '@strapi/design-system/Typography';
-import { EmptyStateLayout } from '@strapi/design-system/EmptyStateLayout';
+import { Box, Divider, EmptyStateLayout, Stack, Switch, Typography } from '@strapi/design-system';
 
+import KeywordCheck from './KeywordCheck';
+import MetaChecks from './MetaChecks';
 import Serp from './Serp';
 import SerpMobile from './SerpMobile';
-import MetaChecks from './MetaChecks';
-import KeywordCheck from './KeywordCheck';
 
 import { Illo } from '../../../../HomePage/Main/EmptyComponentLayout/illo';
 

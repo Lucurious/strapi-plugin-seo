@@ -1,20 +1,16 @@
-import React, { useEffect, useState, useReducer, createContext } from 'react';
+import React, { createContext, useEffect, useReducer, useState } from 'react';
 
 import { useCMEditViewDataManager } from '@strapi/helper-plugin';
 
-import { Box } from '@strapi/design-system/Box';
-import { Button } from '@strapi/design-system/Button';
-import { Divider } from '@strapi/design-system/Divider';
-import { Typography } from '@strapi/design-system/Typography';
-import { TextButton } from '@strapi/design-system/TextButton';
+import { Box, Button, Divider, TextButton, Typography } from '@strapi/design-system';
 
 import SeoChecks from '../SeoChecks';
-import SocialPreview from './SocialPreview';
-import PreviewChecks from './PreviewChecks';
 import BrowserPreview from './BrowserPreview';
+import PreviewChecks from './PreviewChecks';
+import SocialPreview from './SocialPreview';
 
-import Eye from '@strapi/icons/Eye';
 import ArrowRight from '@strapi/icons/ArrowRight';
+import Eye from '@strapi/icons/Eye';
 
 import { getAllChecks } from '../../utils/checks';
 

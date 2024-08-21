@@ -1,29 +1,26 @@
 import React from 'react';
 
 import {
-  ModalLayout,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
-} from '@strapi/design-system/ModalLayout';
+    ModalBody,
+    ModalFooter,
+    ModalHeader,
+    ModalLayout,
+} from '@strapi/design-system';
 
-import { Box } from '@strapi/design-system/Box';
-import { Button } from '@strapi/design-system/Button';
-import { Typography } from '@strapi/design-system/Typography';
-import { EmptyStateLayout } from '@strapi/design-system/EmptyStateLayout';
+import { Box, Button, EmptyStateLayout, Typography } from '@strapi/design-system';
 
 import { Illo } from '../../../HomePage/Main/EmptyComponentLayout/illo';
 
-import MetaRobotCheck from './MetaRobotCheck';
-import WordCountCheck from './WordCountCheck';
-import MetaTitleCheck from './MetaTitleCheck';
-import MetaSocialCheck from './MetaSocialCheck';
-import CanonicalUrlCheck from './CanonicalUrlCheck';
-import LastUpdatedAtCheck from './LastUpdatedAtCheck';
-import KeywordDensityCheck from './KeywordDensityCheck';
-import StructuredDataCheck from './StructuredDataCheck';
-import MetaDescriptionCheck from './MetaDescriptionCheck';
 import AlternativeTextCheck from './AlternativeTextCheck';
+import CanonicalUrlCheck from './CanonicalUrlCheck';
+import KeywordDensityCheck from './KeywordDensityCheck';
+import LastUpdatedAtCheck from './LastUpdatedAtCheck';
+import MetaDescriptionCheck from './MetaDescriptionCheck';
+import MetaRobotCheck from './MetaRobotCheck';
+import MetaSocialCheck from './MetaSocialCheck';
+import MetaTitleCheck from './MetaTitleCheck';
+import StructuredDataCheck from './StructuredDataCheck';
+import WordCountCheck from './WordCountCheck';
 
 import { getRichTextCheck } from '../../utils';
 

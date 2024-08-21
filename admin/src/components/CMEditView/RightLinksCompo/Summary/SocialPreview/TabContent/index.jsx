@@ -1,16 +1,12 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
-import { Flex } from '@strapi/design-system/Flex';
-import { Stack } from '@strapi/design-system/Stack';
-import { TabPanel } from '@strapi/design-system/Tabs';
-import { Divider } from '@strapi/design-system/Divider';
+import { Box, Divider, Flex, Stack, TabPanel } from '@strapi/design-system';
 
 import FacebookPreview from '../FacebookPreview';
 import TwitterPreview from '../TwitterPreview';
 
-import MetaChecks from '../../BrowserPreview/MetaChecks';
 import KeywordCheck from '../../BrowserPreview/KeywordCheck';
+import MetaChecks from '../../BrowserPreview/MetaChecks';
 
 const TabContent = ({ item, keywords, defaultMetaImage }) => {
   return (

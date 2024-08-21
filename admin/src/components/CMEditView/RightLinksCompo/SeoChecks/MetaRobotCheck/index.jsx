@@ -1,15 +1,11 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 import _ from 'lodash';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import { Box } from '@strapi/design-system/Box';
-import { Status } from '@strapi/design-system';
-import { Icon } from '@strapi/design-system/Icon';
-import { Stack } from '@strapi/design-system/Stack';
-import { Typography } from '@strapi/design-system/Typography';
+import { Box, Icon, Stack, Status, Typography } from '@strapi/design-system';
 
 
 import Dot from '@strapi/icons/Dot';

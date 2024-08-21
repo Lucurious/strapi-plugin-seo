@@ -1,25 +1,20 @@
 import React from 'react';
 
 import {
-  ModalLayout,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
-} from '@strapi/design-system/ModalLayout';
+    ModalBody,
+    ModalFooter,
+    ModalHeader,
+    ModalLayout,
+} from '@strapi/design-system';
 
-import { Tabs, Tab, TabGroup, TabPanels } from '@strapi/design-system/Tabs';
+import { Tab, TabGroup, TabPanels, Tabs } from '@strapi/design-system';
 
 import _ from 'lodash';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import { Box } from '@strapi/design-system/Box';
-import { Alert } from '@strapi/design-system/Alert';
-import { Button } from '@strapi/design-system/Button';
-import { Divider } from '@strapi/design-system/Divider';
-import { Typography } from '@strapi/design-system/Typography';
-import { EmptyStateLayout } from '@strapi/design-system/EmptyStateLayout';
+import { Alert, Box, Divider, EmptyStateLayout, Typography } from '@strapi/design-system';
 
 import TabContent from './TabContent';
 

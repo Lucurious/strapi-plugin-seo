@@ -1,13 +1,10 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
-import { Button } from '@strapi/design-system/Button';
-import { BaseHeaderLayout } from '@strapi/design-system/Layout';
+import { BaseHeaderLayout, Box } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../utils';
 
-import Equalizer from '@strapi/icons/Equalizer';
 
 const Header = (seoComponent) => {
   const { formatMessage } = useIntl();

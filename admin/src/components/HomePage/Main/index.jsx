@@ -1,11 +1,6 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
-import { Flex } from '@strapi/design-system/Flex';
-import { LinkButton } from '@strapi/design-system/v2';
-import { Typography } from '@strapi/design-system/Typography';
-import { EmptyStateLayout } from '@strapi/design-system/EmptyStateLayout';
-import { Table, Thead, Tbody, Tr, Td, Th } from '@strapi/design-system/Table';
+import { Box, EmptyStateLayout, Flex, LinkButton, Table, Tbody, Td, Th, Thead, Tr, Typography } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../utils';
@@ -17,12 +12,12 @@ import { Illo } from './EmptyComponentLayout/illo';
 import SettingsModal from './SettingsModal';
 
 import {
-  Tabs,
-  Tab,
-  TabGroup,
-  TabPanels,
-  TabPanel,
-} from '@strapi/design-system/Tabs';
+    Tab,
+    TabGroup,
+    TabPanel,
+    TabPanels,
+    Tabs,
+} from '@strapi/design-system';
 
 import _ from 'lodash';
 

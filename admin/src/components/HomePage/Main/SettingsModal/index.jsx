@@ -1,17 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-import { Box } from '@strapi/design-system';
-import { Stack } from '@strapi/design-system';
-import { Switch } from '@strapi/design-system/Switch';
-import { Button } from '@strapi/design-system/Button';
-import { Typography } from '@strapi/design-system/Typography';
-import { GridLayout } from '@strapi/design-system';
+import { Box, Button, GridLayout, Stack, Switch, Typography } from '@strapi/design-system';
 
 import {
-  ModalLayout,
-  ModalBody,
-  ModalHeader,
-  ModalFooter,
+    ModalBody,
+    ModalFooter,
+    ModalHeader,
+    ModalLayout,
 } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';

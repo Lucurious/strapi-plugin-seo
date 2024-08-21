@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
-import { EmptyStateLayout } from '@strapi/design-system/EmptyStateLayout';
+import { Box, EmptyStateLayout } from '@strapi/design-system';
 
 import { Illo } from './illo';
 

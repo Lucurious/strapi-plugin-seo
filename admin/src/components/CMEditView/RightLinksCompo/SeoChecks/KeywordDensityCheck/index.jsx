@@ -2,9 +2,7 @@ import React, { useContext, useEffect } from 'react';
 
 import _ from 'lodash';
 
-import { Box } from '@strapi/design-system/Box';
-import { Flex } from '@strapi/design-system/Flex';
-import { Badge } from '@strapi/design-system/Badge';
+import { Badge, Box, Flex } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';

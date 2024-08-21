@@ -1,9 +1,6 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
-import { Icon } from '@strapi/design-system/Icon';
-import { Stack } from '@strapi/design-system/Stack';
-import { Typography } from '@strapi/design-system/Typography';
+import { Box, Icon, Stack, Typography } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';

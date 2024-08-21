@@ -1,11 +1,11 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 
 import _ from 'lodash';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import { Box } from '@strapi/design-system/Box';
+import { Box } from '@strapi/design-system';
 
 import SEOAccordion from '../SEOAccordion';
 

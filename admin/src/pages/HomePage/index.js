@@ -4,23 +4,23 @@
  *
  */
 
-import React, { memo, useEffect, useState, useRef } from 'react';
+import React, { memo, useEffect, useRef, useState } from 'react';
 
-import { Box } from '@strapi/design-system/Box';
+import { Box } from '@strapi/design-system';
 
 import {
-  LoadingIndicatorPage,
-  ContentBox,
-  useAutoReloadOverlayBlocker,
+    ContentBox,
+    LoadingIndicatorPage,
+    useAutoReloadOverlayBlocker,
 } from '@strapi/helper-plugin';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../utils';
 
-import { fetchSeoComponent, fetchContentTypes } from '../../utils/api';
+import { fetchContentTypes, fetchSeoComponent } from '../../utils/api';
 
-import Info from '../../components/HomePage/Main';
 import Header from '../../components/HomePage/Header';
+import Info from '../../components/HomePage/Main';
 
 import { createSeoComponent } from '../../utils/api';
 

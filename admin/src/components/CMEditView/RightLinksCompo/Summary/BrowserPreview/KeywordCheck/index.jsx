@@ -2,10 +2,7 @@ import React from 'react';
 
 import _ from 'lodash';
 
-import { Icon } from '@strapi/design-system/Icon';
-import { Divider } from '@strapi/design-system';
-import { Stack } from '@strapi/design-system/Stack';
-import { Typography } from '@strapi/design-system/Typography';
+import { Icon, Stack, Typography } from '@strapi/design-system';
 
 import Dot from '@strapi/icons/Dot';
 

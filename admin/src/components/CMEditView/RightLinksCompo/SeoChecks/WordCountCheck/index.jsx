@@ -5,8 +5,7 @@ import _ from 'lodash';
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import { Box } from '@strapi/design-system/Box';
-import { Typography } from '@strapi/design-system/Typography';
+import { Box, Typography } from '@strapi/design-system';
 
 import SEOAccordion from '../SEOAccordion';
 

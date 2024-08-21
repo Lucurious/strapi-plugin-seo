@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { Box } from '@strapi/design-system/Box';
+import { Box } from '@strapi/design-system';
 
 import { useCMEditViewDataManager } from '@strapi/helper-plugin';
 
 import Summary from './Summary';
 
-import _ from 'lodash';
 
 const SeoChecker = () => {
   const { modifiedData } = useCMEditViewDataManager();

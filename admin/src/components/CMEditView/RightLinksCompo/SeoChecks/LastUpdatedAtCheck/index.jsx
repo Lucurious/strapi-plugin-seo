@@ -1,11 +1,10 @@
 import React, { useContext, useEffect } from 'react';
 
-import { formatDistance, subDays } from 'date-fns';
+import { formatDistance } from 'date-fns';
 
 import _ from 'lodash';
 
-import { Box } from '@strapi/design-system/Box';
-import { Typography } from '@strapi/design-system/Typography';
+import { Box, Typography } from '@strapi/design-system';
 
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';

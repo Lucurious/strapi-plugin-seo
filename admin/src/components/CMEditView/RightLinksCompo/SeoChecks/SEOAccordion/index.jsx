@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 
 import {
-    Accordion,
-    AccordionContent,
-    AccordionGroup,
-    AccordionToggle,
+  Accordion,
+  AccordionContent,
+  AccordionGroup,
+  AccordionToggle,
 } from '@strapi/design-system';
 
 import { Box, Icon, IconButton, Typography } from '@strapi/design-system';
 
-import Dot from '@strapi/icons/Dot';
-import Information from '@strapi/icons/Information';
+import { default as Dot, default as Information } from '@strapi/icons';
 
 import styled from 'styled-components';
 

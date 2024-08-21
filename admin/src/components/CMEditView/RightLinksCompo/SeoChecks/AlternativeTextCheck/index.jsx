@@ -7,7 +7,7 @@ import { Box, Icon, Stack, Status, Typography } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import Dot from '@strapi/icons/Dot';
+import Dot from '@strapi/icons';
 
 import SEOAccordion from '../SEOAccordion';
 

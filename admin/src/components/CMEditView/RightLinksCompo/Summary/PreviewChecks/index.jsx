@@ -5,7 +5,7 @@ import { Box, Icon, Stack, Typography } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../../utils';
 
-import Dot from '@strapi/icons/Dot';
+import Dot from '@strapi/icons';
 
 import _ from 'lodash';
 

@@ -12,8 +12,7 @@ import {
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../../utils';
 
-import Equalizer from '@strapi/icons/Equalizer';
-import InformationSquare from '@strapi/icons/InformationSquare';
+import { default as Equalizer, default as InformationSquare } from '@strapi/icons';
 
 import { ContentBox, useNotification } from '@strapi/helper-plugin';
 

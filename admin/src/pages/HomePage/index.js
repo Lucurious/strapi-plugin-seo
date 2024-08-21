@@ -9,9 +9,9 @@ import React, { memo, useEffect, useRef, useState } from 'react';
 import { Box } from '@strapi/design-system';
 
 import {
-    ContentBox,
-    LoadingIndicatorPage,
-    useAutoReloadOverlayBlocker,
+  ContentBox,
+  LoadingIndicatorPage,
+  useAutoReloadOverlayBlocker,
 } from '@strapi/helper-plugin';
 
 import { useIntl } from 'react-intl';

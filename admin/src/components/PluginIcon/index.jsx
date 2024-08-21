@@ -4,8 +4,8 @@
  *
  */
 
+import Search from '@strapi/icons';
 import React from 'react';
-import Search from '@strapi/icons/Search';
 
 const PluginIcon = () => <Search />;
 

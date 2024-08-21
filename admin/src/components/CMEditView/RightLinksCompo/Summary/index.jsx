@@ -9,8 +9,7 @@ import BrowserPreview from './BrowserPreview';
 import PreviewChecks from './PreviewChecks';
 import SocialPreview from './SocialPreview';
 
-import ArrowRight from '@strapi/icons/ArrowRight';
-import Eye from '@strapi/icons/Eye';
+import { default as ArrowRight, default as Eye } from '@strapi/icons';
 
 import { getAllChecks } from '../../utils/checks';
 

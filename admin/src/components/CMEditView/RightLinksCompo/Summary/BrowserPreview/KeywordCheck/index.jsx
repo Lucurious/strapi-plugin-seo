@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 import { Icon, Stack, Typography } from '@strapi/design-system';
 
-import Dot from '@strapi/icons/Dot';
+import Dot from '@strapi/icons';
 
 const KeywordCheck = ({ item, keywords, label }) => {
   const _keywords = keywords.split(',');

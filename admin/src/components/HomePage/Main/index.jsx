@@ -5,7 +5,7 @@ import { Box, EmptyStateLayout, Flex, LinkButton, Table, Tbody, Td, Th, Thead, T
 import { useIntl } from 'react-intl';
 import { getTrad } from '../../../utils';
 
-import Plus from '@strapi/icons/Plus';
+import Plus from '@strapi/icons';
 
 import { Illo } from './EmptyComponentLayout/illo';
 

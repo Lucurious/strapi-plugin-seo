@@ -8,7 +8,7 @@ import { getTrad } from '../../../../../utils';
 import { Box, Icon, Stack, Status, Typography } from '@strapi/design-system';
 
 
-import Dot from '@strapi/icons/Dot';
+import Dot from '@strapi/icons';
 
 import SEOAccordion from '../SEOAccordion';
 

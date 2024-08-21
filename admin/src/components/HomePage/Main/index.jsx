@@ -12,11 +12,7 @@ import { Illo } from './EmptyComponentLayout/illo';
 import SettingsModal from './SettingsModal';
 
 import {
-    Tab,
-    TabGroup,
-    TabPanel,
-    TabPanels,
-    Tabs,
+  Tabs,
 } from '@strapi/design-system';
 
 import _ from 'lodash';
@@ -26,35 +22,34 @@ const Main = ({ contentTypes }) => {
   return (
     <>
       <Box padding={8}>
-        <TabGroup label="label" id="tabs" variant="simple">
-          <Tabs>
-            <Tab>
+        <Tabs.Root label="label" id="tabs" variant="simple">
+          <Tabs.List>
+            <Tabs.Trigger>
               <Typography>
                 {formatMessage({
                   id: getTrad('SEOPage.tab.collection-type-title'),
                   defaultMessage: 'Collection Types',
                 })}
               </Typography>
-            </Tab>
-            <Tab>
+            </Tabs.Trigger>
+            <Tabs.Trigger>
               <Typography variant="omega">
                 {formatMessage({
                   id: getTrad('SEOPage.tab.single-type-title'),
                   defaultMessage: 'Single Types',
                 })}
               </Typography>
-            </Tab>
-            <Tab>
+            </Tabs.Trigger>
+            <Tabs.Trigger>
               <Typography variant="omega">
                 {formatMessage({
                   id: getTrad('SEOPage.tab.plugin-title'),
                   defaultMessage: 'Plugins',
                 })}
               </Typography>
-            </Tab>
-          </Tabs>
-          <TabPanels>
-            <TabPanel>
+            </Tabs.Trigger>
+          </Tabs.List>
+            <Tabs.Content>
               {/* TABLE */}
               <Table
                 colCount={2}
@@ -134,8 +129,8 @@ const Main = ({ contentTypes }) => {
               </Table>
 
               {/* END TABLE */}
-            </TabPanel>
-            <TabPanel>
+            </Tabs.Content>
+            <Tabs.Content>
               {/* TABLE */}
               <Table colCount={2} rowCount={contentTypes.singleTypes.length}>
                 <Thead>
@@ -209,8 +204,8 @@ const Main = ({ contentTypes }) => {
               </Table>
 
               {/* END TABLE */}
-            </TabPanel>
-            <TabPanel>
+            </Tabs.Content>
+            <Tabs.Content>
               {/* TABLE */}
               <Table colCount={2} rowCount={contentTypes.plugins.length}>
                 <Thead>
@@ -273,9 +268,8 @@ const Main = ({ contentTypes }) => {
               </Table>
 
               {/* END TABLE */}
-            </TabPanel>
-          </TabPanels>
-        </TabGroup>
+            </Tabs.Content>
+        </Tabs.Root>
       </Box>
     </>
   );

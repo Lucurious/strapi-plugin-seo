@@ -1,13 +1,13 @@
 import React from 'react';
 
 import {
-    ModalBody,
-    ModalFooter,
-    ModalHeader,
-    ModalLayout,
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+  ModalLayout,
 } from '@strapi/design-system';
 
-import { Tab, TabGroup, TabPanels, Tabs } from '@strapi/design-system';
+import { Tabs } from '@strapi/design-system';
 
 import _ from 'lodash';
 
@@ -55,19 +55,18 @@ const SocialPreview = ({ modifiedData, setIsVisible }) => {
 
         {seo ? (
           <Box padding={4}>
-            <TabGroup
+            <Tabs.Root
               label="Some stuff for the label"
               id="tabs"
               variant="simple"
             >
-              <Tabs>
+              <Tabs.List>
                 {metaSocial &&
                   metaSocial.map((item, index) => {
                     if (item.socialNetwork)
-                      return <Tab key={index}>{item.socialNetwork}</Tab>;
+                      return <Tabs.Trigger key={index}>{item.socialNetwork}</Tabs.Trigger>;
                   })}
-              </Tabs>
-              <TabPanels>
+              </Tabs.List>
                 {metaSocial &&
                   metaSocial.map((item, index) => {
                     if (
@@ -97,8 +96,7 @@ const SocialPreview = ({ modifiedData, setIsVisible }) => {
                       );
                     }
                   })}
-              </TabPanels>
-            </TabGroup>
+            </Tabs.Root>
           </Box>
         ) : (
           <Box paddingLeft={4}>

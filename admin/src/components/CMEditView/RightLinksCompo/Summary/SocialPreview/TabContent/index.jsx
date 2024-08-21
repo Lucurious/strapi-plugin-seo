@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, Divider, Flex, Stack, TabPanel } from '@strapi/design-system';
+import { Box, Divider, Flex, Stack, Tabs } from '@strapi/design-system';
 
 import FacebookPreview from '../FacebookPreview';
 import TwitterPreview from '../TwitterPreview';
@@ -10,7 +10,7 @@ import MetaChecks from '../../BrowserPreview/MetaChecks';
 
 const TabContent = ({ item, keywords, defaultMetaImage }) => {
   return (
-    <TabPanel>
+    <Tabs.Content>
       <Stack spacing={2}>
         <Box paddingTop={6} paddingBottom={6}>
           {item && (
@@ -61,7 +61,7 @@ const TabContent = ({ item, keywords, defaultMetaImage }) => {
           </>
         )}
       </Stack>
-    </TabPanel>
+    </Tabs.Content>
   );
 };
 

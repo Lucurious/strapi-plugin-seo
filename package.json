@@ -13,8 +13,8 @@
     "url": "https://github.com/strapi/strapi-plugin-seo.git"
   },
   "dependencies": {
-    "@strapi/design-system": "^1.19.0",
-    "@strapi/icons": "^1.19.0",
+    "@strapi/design-system": "2.0.0-rc.9",
+    "@strapi/icons": "2.0.0-rc.9",
     "date-fns": "^3.6.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "lodash": "^4.17.21",
